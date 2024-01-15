@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card Design HTML and CSS | CodingNepal</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="courses.component.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <h2 class="logo"><a href="/course">EnrolliXCoder</a></h2>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" id="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </label>
+          <ul class="links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/course">Courses</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li class="dropdown">
+              <a href="/loginadmin">Login</a>
+              <!-- <div class="dropdown-content">
+                <a href="/loginadmin">Test Admin</a>
+                <a href="/loginstudent">Student</a>
+               
+              </div> -->
+            </li>
+          </ul>
+          
+        </nav>
+      </header>
+
+      <h1 class="courses-heading">COURSES</h1>
+      
+    <div class="card-list">
+        <a href="/course" class="card-item">
+            <img src="https://swansoftwaresolutions.com/wp-content/uploads/2020/04/05.14.20-Meet-a-Full-Stack-Developer-Vlad-Ryba.jpg" alt="Card Image">
+            <span class="developer">Full Stack Development</span>
+            <h3>A full stack developer is adept at both front-end and back-end technologies, managing the entire web application development process from user interface design to server-side scripting and database management.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="/course" class="card-item">
+            <img src="https://online.crbtech.in/wp-content/uploads/2020/06/Online-AI-Machine-Learning-Course.jpg" alt="Card Image">
+            <span class="mlai">ML/AI</span>
+            <h3>Machine Learning (ML) and Artificial Intelligence (AI) involve creating algorithms that enable computers to learn from data and perform tasks without explicit programming.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="/course" class="card-item">
+            <img src="https://www.clariwell.in/resources/best-software-testing-courses-in-pune.webp" alt="Card Image">
+            <span class="editor">Software Testing</span>
+            <h3>A software testing is designed to equip individuals with the skills and knowledge necessary to systematically evaluate and validate software applications,to ensure the delivery of high-quality, error-free software.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="/course" class="card-item">
+            <img src="https://www.nen.nl/media/Cyber_Security_1.jpg" alt="Card Image">
+            <span class="mlai">Cyber Security Analyst</span>
+            <h3>Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security. </h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="/course" class="card-item">
+            <img src="https://cdn.futura-sciences.com/buildsv6/images/wide1920/0/3/a/03a0554ae1_50175403_data-analyst-data-scientist-formation-metier.jpg" alt="Card Image">
+            <span class="mlai">Data Science Analyst</span>
+            <h3>Data science is an interdisciplinary field that uses algorithms, procedures, and processes to examine large amounts of data in order to uncover hidden patterns, generate insights, and direct decision-making.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
