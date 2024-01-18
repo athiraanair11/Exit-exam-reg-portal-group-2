@@ -10,6 +10,7 @@ export class ApiService {
   private baseUrl = 'http://localhost:3000/adminlogin';
   private studUrl = 'http://localhost:3000/studentlogin';
   private regUrl = 'http://localhost:3900';
+  private logUrl = 'http://localhost:3600/login';
 
 
 
@@ -21,7 +22,9 @@ export class ApiService {
   slogin(credentials: { email: string, password: string }): Observable<any> {
     return this.http.post<any>(this.studUrl, credentials);
   }
-
+  log(credentials: { email: string, password: string }): Observable<any> {
+    return this.http.post<any>(this.logUrl, credentials);
+  }
  
   studlogin(credentials: { regid: string }): Observable<any> {
     const url = `${this.regUrl}/login`; // Use backticks for template literals

@@ -11,8 +11,10 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #ffffff);
+  background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
 }
+
+
 .container{
   max-width: 700px;
   width: 100%;
